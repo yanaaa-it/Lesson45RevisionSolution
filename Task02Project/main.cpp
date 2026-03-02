@@ -11,7 +11,7 @@ int main() {
 	} while (length <= 0);
 
 	user_init(array, length);
-	print("\naverage number:");
+	print("\narithmetic number:");
 	print(to_string(find_arithmetic_number(array, length)) + ".\n");
 	print("\nCount above average number is ");
 	print(to_string(count_above_average(array, length)) + ".\n");
